@@ -41,6 +41,8 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
         numberOfExoplanets = drakeEquation.nextInt();
         System.out.println("Give me a number of how many of those planets actually develop life ");
         f_l = drakeEquation.nextDouble();
+        System.out.println("Give me a number of how many of those plants will develop intelligent life");
+        f_i = drakeEquation.nextDouble();
 
 
 
