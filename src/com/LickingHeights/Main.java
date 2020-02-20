@@ -32,11 +32,10 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
       Scanner drakeEquation;
 
       drakeEquation = new Scanner(System.in);
-        System.out.println("Give me a estimated number of how many intelligent speicies exist that can communicate with us");
-        int N =drakeEquation.nextInt();
+
       System.out.println(" Give me estimated number of how many stars form in the galaxy per year ");
            rstar = drakeEquation.nextInt();
-        System.out.println("Give me ")
+
 
 
       N = (int)(rstar * f_p * numberOfExoplanets * f_l * f_i * f_c * L);
