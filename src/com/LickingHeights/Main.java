@@ -39,12 +39,16 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
             f_p = drakeEquation.nextDouble();
         System.out.println("Give me number of how many of those planets are capable of developing life ");
         numberOfExoplanets = drakeEquation.nextInt();
+        System.out.println("Give me a number of how many of those planets actually develop life ");
+        f_l = drakeEquation.nextDouble();
 
 
 
 
 
-      N = (int)(rstar * f_p * numberOfExoplanets * f_l * f_i * f_c * L);
+
+
+        N = (int)(rstar * f_p * numberOfExoplanets * f_l * f_i * f_c * L);
 
         System.out.println(" The number of intellgient that are out there \n" +
         "that can communicate with us is: "+ N);
