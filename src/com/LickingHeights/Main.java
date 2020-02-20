@@ -35,6 +35,20 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
       System.out.println(" Give me estimated number of how many stars form in the galaxy per year ");
            rstar = drakeEquation.nextInt();
+        System.out.println("Give me a number of how many stars that formed have planets");
+            f_p = drakeEquation.nextDouble();
+        System.out.println("Give me number of how many of those planets are capable of developing life ");
+           numberOfExoplanets = drakeEquation.nextInt();
+        System.out.println("Give me a number of how many of those planets actually develop life ");
+           f_l = drakeEquation.nextDouble();
+        System.out.println("Give me a number of how many of those plants will develop intelligent life");
+          f_i = drakeEquation.nextDouble();
+        System.out.println("Give me a number of how many of those planets will be able to communicate");
+          f_c = drakeEquation.nextDouble();
+        System.out.println("Give me a number of how many years those planets will survive for");
+          L = drakeEquation.nextInt();
+
+
 
 
 
@@ -42,6 +56,7 @@ L = 1000 to 100,000,000 years (which will last somewhere between 1000 and 100,00
 
         System.out.println(" The number of intellgient that are out there \n" +
         "that can communicate with us is: "+ N);
+
 
     }
 
